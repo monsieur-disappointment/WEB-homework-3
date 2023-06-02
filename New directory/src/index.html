@@ -1,0 +1,41 @@
+..
+        <p>早上好中国！！现在我吃冰淇淋！！我很爱吃摈弃零！！！<p>
+        <form action="#" method="#" id="depositeCalc">
+            <a>Вид вклада</a>
+            <select id="depositeType">
+                <option value="Пополняемый" selected="selected">Пополняемый</option>
+                <option value="Срочный">Срочный</option>
+            </select>
+
+            <p></p>
+            <a>Срок вклада</a>
+            <select id="depositeTerm" style="display: flex;">
+                <option>6 месяцев - 20%</option>
+                <option>1 год - 22%</option>
+                <option>1.5 года - 15%</option>
+                <option>2 года - 10%</option>
+            </select>
+            <select id="depositeTerm2" style="display: none;">
+                <option>3 месяца - 20%</option>
+                <option>6 месяцев - 22%</option>
+                <option>9 месяцев - 23%</option>
+                <option>1 год - 24%</option>
+                <option>1.5 года - 18%</option>
+                <option>2 года - 15%</option>
+            </select>
+
+            <p>
+            <a>Сумма</a>
+            <input type="number" id="depositeSum">
+            </p>
+
+            <p><button type="button" id="getResult">Рассчитать</button></p>
+
+            <p>Вклад "<output id="depositeTypeOutput">0</output>" на срок "<output id="depositeTermOutput">0</output>" на сумму <output id="depositeSumOutput">0</output> руб.</p>
+            <p>В конце срока вы получите <output id="depositeResultOutput">0</output> руб.</p>
+            </form>
+
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+            <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
